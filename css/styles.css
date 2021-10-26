@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(49, 48, 48);
+}
+body {
+    font-family:'Chakra Petch', sans-serif; ;
+}
+
+h1 {
+    font-weight: 600;
+    color: honeydew;
+    background-color: rgb(49, 48, 48);
+}
+
+
