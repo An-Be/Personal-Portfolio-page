@@ -1,18 +1,16 @@
 
 body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    
 }
 
 .jumbotron {
-    background-color: white;
-    color: black;
+    background-color: rgb(226, 219, 231);
+    
 }
 
 h1 {
     font-weight: 900;
-    color: honeydew;
-    ;
+    
 }
 
 h2 {
@@ -20,13 +18,12 @@ h2 {
 }
 
 #summaryContainer {
-    color: black;
     font-weight: 400;
 }
 
 #summaryCard {
-    
-    border-radius: 20px;
+    background-color: rgb(226, 219, 231);
+    border-radius: 10px;
 }
 
 #profImg {
@@ -34,56 +31,25 @@ h2 {
     height: 200px;
     border-radius: 60px;
 }
-/*
 
-.list-group {
-    background-color: rgb(49, 48, 48);
-}
-
-.list-group-item {
-    background-color: rgb(49, 48, 48);
-}
-
-.card-header {
-    font-size: x-large;
-    font-weight: 600;
-}
-
-ul {
-    list-style-type:none;
-}
-
-.fa-js-square {
-    color: #F0DB4F;
-    padding: 5px;
-}
-
-.fa-bootstrap {
-    color: #563d7c;
-    padding: 5px;
-}
-
-.fa-css3-alt {
-    color: #2965f1;
-    padding: 5px;
-}
-
-.fa-sass {
-    color: #c69;
-    padding: 5px;
-}
-
-.fa-node-js {
-    color:#68A063;
-    padding: 5px;
-}
-
-.fa-git-alt {
-    color: #f34f29;
-    padding: 5px;
-}
-*/
  #tech {
-     background-color: white;
+    background-color: rgb(226, 219, 231);
      border-radius: 10px;
  }
+
+ #kermaCard {
+     background-color: rgb(226, 219, 231);
+     border-radius: 10px;
+ }
+
+ .fa-linkedin {
+    color: #0077B5;
+ }
+ .fa-github {
+     color: #211F1F;
+ }
+
+ .footer {
+    
+ }
+
