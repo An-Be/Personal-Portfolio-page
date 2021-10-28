@@ -4,6 +4,11 @@ body {
     background-color: rgb(49, 48, 48);
 }
 
+.jumbotron {
+    background-color: rgb(49, 48, 48);
+    color: honeydew;
+}
+
 h1 {
     font-weight: 600;
     color: honeydew;
