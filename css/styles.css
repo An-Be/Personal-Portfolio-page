@@ -10,8 +10,12 @@ h1 {
     background-color: rgb(49, 48, 48);
 }
 
-
-
 #summaryContainer {
     color: honeydew;
+}
+
+#profImg {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
 }
