@@ -15,6 +15,10 @@ h1 {
     background-color: rgb(49, 48, 48);
 }
 
+h2 {
+    font-weight: 600;
+}
+
 #summaryContainer {
     color: honeydew;
 }
@@ -23,4 +27,51 @@ h1 {
     width: auto;
     height: 200px;
     border-radius: 10px;
+}
+
+.list-group {
+    background-color: rgb(49, 48, 48);
+}
+
+.list-group-item {
+    background-color: rgb(49, 48, 48);
+}
+
+.card-header {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.fa-js-square {
+    color: #F0DB4F;
+    padding: 5px;
+}
+
+.fa-bootstrap {
+    color: #563d7c;
+    padding: 5px;
+}
+
+.fa-css3-alt {
+    color: #2965f1;
+    padding: 5px;
+}
+
+.fa-sass {
+    color: #c69;
+    padding: 5px;
+}
+
+.fa-node-js {
+    color:#68A063;
+    padding: 5px;
+}
+
+.fa-git-alt {
+    color: #f34f29;
+    padding: 5px;
 }

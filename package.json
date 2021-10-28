@@ -11,6 +11,7 @@
   "author": "Andrea Berrocal",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^3.4.1"
   },
   "devDependencies": {
