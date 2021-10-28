@@ -1,26 +1,32 @@
 
 body {
-    font-family:'Chakra Petch', sans-serif;
-    background-color: rgb(49, 48, 48);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
 }
 
 .jumbotron {
-    background-color: rgb(49, 48, 48);
-    color: honeydew;
+    background-color: white;
+    color: black;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 900;
     color: honeydew;
-    background-color: rgb(49, 48, 48);
+    ;
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 900;
 }
 
 #summaryContainer {
-    color: honeydew;
+    color: black;
+    font-weight: 400;
+}
+
+#summaryCard {
+    
+    border-radius: 20px;
 }
 
 #profImg {
@@ -28,6 +34,7 @@ h2 {
     height: 200px;
     border-radius: 10px;
 }
+/*
 
 .list-group {
     background-color: rgb(49, 48, 48);
@@ -75,3 +82,8 @@ ul {
     color: #f34f29;
     padding: 5px;
 }
+*/
+ #tech {
+     background-color: white;
+     border-radius: 10px;
+ }
