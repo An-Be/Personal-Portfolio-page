@@ -25,7 +25,7 @@ h2 {
 #summaryContainer {
     font-weight: 400;
     background-color: rgb(226, 219, 231);
-    width:100%;
+    
 }
 
 #summaryCard {
@@ -40,16 +40,14 @@ h2 {
 }
 
  #tech {
-    background-color: rgb(226, 219, 231);
-     
-     width:100%;
+   
+    
      
  }
 
  #kermaCard {
      background-color: rgb(226, 219, 231);
      
-     width:100%;
  }
 
  .fa-linkedin {
@@ -59,9 +57,6 @@ h2 {
      color: #211F1F;
  }
 
- .footer {
-    
- }
 
  .cursor {
      position: fixed;
@@ -78,11 +73,11 @@ h2 {
  }
 
  .cursor2 {
-    position: absolute;
+    position: fixed;
     pointer-events: none;
     width: 8px;
     height: 8px;
-    background-color: #f70808;
+    background-color: #666666;
     border-radius: 50%;
     left: 0;
     top: 0;
