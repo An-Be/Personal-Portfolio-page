@@ -24,12 +24,17 @@
             <div class="jumbotron jumbotron-fluid">
                 <h1 class= "text-center">Andrea Berrocal</h1>
             </div>
+            <!-- cursor -->
+            <div class="cursor"></div>
+            <div class="cursor2"></div>
+            
 
+            <hr>
             <!-- Summary -->
             <div class="container" id="summaryContainer">
                     <div class="row">
                         <div class="col text-center">
-                            <div class="card" id="summaryCard">
+                            <div class="card" >
 
                             <div class="card-body align-self-center">
                                 <h2 class="card-title text-center">About Me</h2>
@@ -41,10 +46,12 @@
                     </div>
 
                 </div> 
+
+                <hr>
                 <!-- tech I work with -->
-                <div class="container">
+                <div class="container" id="tech">
                 <div class="row">
-                    <div class="col-8 text-center" id="tech">
+                    <div class="col-8 text-center">
                         <h2>Technologies I work with</h2>
                         <img src="img/js-icon.webp" width="auto" height="80px" alt="JS icon">
                         <img src="img/html-icon.png" width="auto" height="80px" alt="HTMl icon">
@@ -57,12 +64,14 @@
                     </div>
                 </div>
             </div> 
+
+            <hr>
                 <!-- Projects -->
-                <div class="container">
+                <div class="container" id="kermaCard">
                 <div class="row">
                     <div class="col">
                         
-                        <div class="card text-center" id="kermaCard">
+                        <div class="card text-center" >
                             <h2 class="text-center">Projects</h2>
                             <img class="card-img-top" src="#" alt="Image of Kerma Website">
                             <div class="card-body">
@@ -77,6 +86,8 @@
                     </div>
                 </div> 
             </div> 
+
+            <hr>
             
 
                  <!--footer -->
@@ -103,9 +114,8 @@
     </footer>
 
              <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-            <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+            <script src="js/cursor.js"></script>
         </body>
     
 </html>
