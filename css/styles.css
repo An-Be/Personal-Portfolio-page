@@ -4,12 +4,11 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    cursor:none;
     background-color: rgb(250, 249, 249);
 }
 
 .jumbotron {
-    background-color: rgb(226, 219, 231);
+    background-color: rgb(213, 189, 230);
     
 }
 
@@ -24,12 +23,12 @@ h2 {
 
 #summaryContainer {
     font-weight: 400;
-    background-color: rgb(226, 219, 231);
-    
+     
 }
 
 #summaryCard {
-    background-color: rgb(226, 219, 231);
+    
+    border-radius: 10px;
     
 }
 
@@ -39,14 +38,22 @@ h2 {
     border-radius: 60px;
 }
 
- #tech {
-   
+ .skillLogo {
+     
+     margin: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
     
      
  }
 
+ #kermaBtn {
+    background-color: rgb(213, 189, 230);
+ }
+
  #kermaCard {
-     background-color: rgb(226, 219, 231);
+     
      
  }
 
@@ -57,33 +64,6 @@ h2 {
      color: #211F1F;
  }
 
-
- .cursor {
-     position: fixed;
-     pointer-events: none;
-     width: 50px;
-     height: 50px;
-     border: 1px solid #555151;
-     border-radius: 50%;
-     left: 0;
-     top: 0;
-     transform: translate(-50%, -50%);
-     transition: .1s;
-    
- }
-
- .cursor2 {
-    position: fixed;
-    pointer-events: none;
-    width: 8px;
-    height: 8px;
-    background-color: #666666;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    transform: translate(-50%, -50%);
-    
-}
 
 
 
