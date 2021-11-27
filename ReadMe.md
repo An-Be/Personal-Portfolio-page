@@ -1,5 +1,3 @@
 # My Personal Portfolio Webpage
 
-Used to showcase my work.
-
-Currently a work in progress.
+Used to showcase my work. Built using HTML, CSS, and Bootstrap.
