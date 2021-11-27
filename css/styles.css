@@ -2,55 +2,38 @@ body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(250, 249, 249);
-    
+    background-color: rgb(250, 249, 249);  
 }
-
 .jumbotron {
-    background-color: rgb(213, 189, 230);
-   
+    background-color: rgb(213, 189, 230);  
 }
-
 h1 {
     font-weight: 900;
     
 }
-
 h2 {
     font-weight: 900;
 }
-
 #summaryContainer {
-    font-weight: 400;
-     
+    font-weight: 400;   
 }
-
-#summaryCard {
-    
-    border-radius: 10px;
-    
+#summaryCard {    
+   border-radius: 10px;   
 }
-
 #profImg {
     width: auto;
     height: 200px;
     border-radius: 60px;
 }
-#emailbtn{
+.btn {
     background-color: rgb(213, 189, 230);
 }
-#CVbtn {
-    background-color: rgb(213, 189, 230);
-}
-
  .skillLogo {
      
      margin: 5px;
      display: block;
      margin-left: auto;
-     margin-right: auto;
-    
-     
+     margin-right: auto;   
  }
  #kermaImg {
     margin-top: 10px;
@@ -59,26 +42,24 @@ h2 {
     height: 469px;
     border-radius: 60px;
  }
-
- #kermaBtn1 {
-    background-color: rgb(213, 189, 230);
- }
- #kermaBtn2 {
-    background-color: rgb(213, 189, 230);
- }
  #WozLogo {
      margin-top: 10px;
      margin-bottom: 10px;
      width: auto;
      height: 200px;
  }
-
-
  .fa-linkedin {
     color: #0077B5;
  }
  .fa-github {
      color: #211F1F;
+ }
+ #githubBtn
+ {
+    background-color: rgb(250, 249, 249);
+ }
+ #linkedinBtn{
+    background-color: rgb(250, 249, 249);
  }
 
 
